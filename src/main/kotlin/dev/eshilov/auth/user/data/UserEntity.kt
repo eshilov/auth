@@ -1,4 +1,4 @@
-package dev.eshilov.auth.user
+package dev.eshilov.auth.user.data
 
 import java.util.*
 import javax.persistence.Column
