@@ -15,6 +15,9 @@ class UserEntity(
     @GeneratedValue
     var id: UUID? = null,
 
+    @Column(name = "email")
+    var email: String,
+
     @Column(name = "first_name")
     var firstName: String,
 
